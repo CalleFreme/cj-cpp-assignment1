@@ -14,6 +14,7 @@ int main()
 	
 	float fahrenheit = (temperature * 9.0 / 5.0) + 32.0;
 	std::cout << "Fahrenheit: " << fahrenheit << "\n";
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
