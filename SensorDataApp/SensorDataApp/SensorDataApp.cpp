@@ -6,6 +6,7 @@
 int main()
 {
     std::cout << "Hello IoT!\n";
+	std::cut << "Hello Sensor Data!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
