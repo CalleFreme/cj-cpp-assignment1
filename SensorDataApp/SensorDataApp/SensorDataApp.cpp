@@ -6,7 +6,14 @@
 int main()
 {
     std::cout << "Hello IoT!\n";
-	std::cut << "Hello Sensor Data!\n";
+	std::cout << "Hello Sensor Data!\n";
+
+	float temperature;
+	std::cout << "Enter temperature (Celsius): ";
+	std::cin >> temperature;
+	
+	float fahrenheit = (temperature * 9.0 / 5.0) + 32.0;
+	std::cout << "Fahrenheit: " << fahrenheit << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
